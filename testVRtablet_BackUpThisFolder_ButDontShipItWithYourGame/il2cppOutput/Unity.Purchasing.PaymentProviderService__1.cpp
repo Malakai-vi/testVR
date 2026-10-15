@@ -875,7 +875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateOrderAsyncU3Ed__13_SetStateMach
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 103731
+// Method Definition Index: 103738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CListEntitledAsyncU3Ed__9_MoveNext_mC9868DD1395659C0D0820B9F0ACB023C2D1F3AB4 (U3CListEntitledAsyncU3Ed__9_tA39CD44698E9926D836E6A8FC4AECE5238A1334E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1109,7 +1109,7 @@ IL2CPP_EXTERN_C  void U3CListEntitledAsyncU3Ed__9_MoveNext_mC9868DD1395659C0D082
 	_thisAdjusted = il2cpp_codegen_get_raw_data<U3CListEntitledAsyncU3Ed__9_tA39CD44698E9926D836E6A8FC4AECE5238A1334E>(__this);
 	U3CListEntitledAsyncU3Ed__9_MoveNext_mC9868DD1395659C0D0820B9F0ACB023C2D1F3AB4(_thisAdjusted, method);
 }
-// Method Definition Index: 103732
+// Method Definition Index: 103739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CListEntitledAsyncU3Ed__9_SetStateMachine_mE3AD91C1A02BDBCD50261387E99A033CB6922CFA (U3CListEntitledAsyncU3Ed__9_tA39CD44698E9926D836E6A8FC4AECE5238A1334E* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1142,7 +1142,7 @@ IL2CPP_EXTERN_C  void U3CListEntitledAsyncU3Ed__9_SetStateMachine_mE3AD91C1A02BD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 103733
+// Method Definition Index: 103740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CListPaymentProvidersAsyncU3Ed__10_MoveNext_mB9C4CF13234616C964673969CA190DEC0637B898 (U3CListPaymentProvidersAsyncU3Ed__10_tA2A39E15FBAE35767979FACD01371961794A7F58* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1362,7 +1362,7 @@ IL2CPP_EXTERN_C  void U3CListPaymentProvidersAsyncU3Ed__10_MoveNext_mB9C4CF13234
 	_thisAdjusted = il2cpp_codegen_get_raw_data<U3CListPaymentProvidersAsyncU3Ed__10_tA2A39E15FBAE35767979FACD01371961794A7F58>(__this);
 	U3CListPaymentProvidersAsyncU3Ed__10_MoveNext_mB9C4CF13234616C964673969CA190DEC0637B898(_thisAdjusted, method);
 }
-// Method Definition Index: 103734
+// Method Definition Index: 103741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CListPaymentProvidersAsyncU3Ed__10_SetStateMachine_m772319CB7192A651898F20DDA6C568C63960B637 (U3CListPaymentProvidersAsyncU3Ed__10_tA2A39E15FBAE35767979FACD01371961794A7F58* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1395,7 +1395,7 @@ IL2CPP_EXTERN_C  void U3CListPaymentProvidersAsyncU3Ed__10_SetStateMachine_m7723
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 103735
+// Method Definition Index: 103742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLookupStoreOverridesAsyncU3Ed__11_MoveNext_m3FF4B0CB1C06A09DBEF6048B27697CBCF3FCB6FC (U3CLookupStoreOverridesAsyncU3Ed__11_t624246A1F4D3007658A90C6F7F1080382A128212* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1636,7 +1636,7 @@ IL2CPP_EXTERN_C  void U3CLookupStoreOverridesAsyncU3Ed__11_MoveNext_m3FF4B0CB1C0
 	_thisAdjusted = il2cpp_codegen_get_raw_data<U3CLookupStoreOverridesAsyncU3Ed__11_t624246A1F4D3007658A90C6F7F1080382A128212>(__this);
 	U3CLookupStoreOverridesAsyncU3Ed__11_MoveNext_m3FF4B0CB1C06A09DBEF6048B27697CBCF3FCB6FC(_thisAdjusted, method);
 }
-// Method Definition Index: 103736
+// Method Definition Index: 103743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLookupStoreOverridesAsyncU3Ed__11_SetStateMachine_m3C23FEFA92C7653D9297DA5433B1A8DEDF93248B (U3CLookupStoreOverridesAsyncU3Ed__11_t624246A1F4D3007658A90C6F7F1080382A128212* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1669,7 +1669,7 @@ IL2CPP_EXTERN_C  void U3CLookupStoreOverridesAsyncU3Ed__11_SetStateMachine_m3C23
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 103737
+// Method Definition Index: 103744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRegisterLinkOutSessionAsyncU3Ed__12_MoveNext_m5879AE8C25DBA49C31DE7A2D388BFE473FD31DE9 (U3CRegisterLinkOutSessionAsyncU3Ed__12_tFAB3B93FBE99A56B4DCB24904D736FC6188171E3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1910,7 +1910,7 @@ IL2CPP_EXTERN_C  void U3CRegisterLinkOutSessionAsyncU3Ed__12_MoveNext_m5879AE8C2
 	_thisAdjusted = il2cpp_codegen_get_raw_data<U3CRegisterLinkOutSessionAsyncU3Ed__12_tFAB3B93FBE99A56B4DCB24904D736FC6188171E3>(__this);
 	U3CRegisterLinkOutSessionAsyncU3Ed__12_MoveNext_m5879AE8C25DBA49C31DE7A2D388BFE473FD31DE9(_thisAdjusted, method);
 }
-// Method Definition Index: 103738
+// Method Definition Index: 103745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRegisterLinkOutSessionAsyncU3Ed__12_SetStateMachine_m704BFFD4037C9D646D89ECB14EC90318C97B7091 (U3CRegisterLinkOutSessionAsyncU3Ed__12_tFAB3B93FBE99A56B4DCB24904D736FC6188171E3* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1943,7 +1943,7 @@ IL2CPP_EXTERN_C  void U3CRegisterLinkOutSessionAsyncU3Ed__12_SetStateMachine_m70
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 103739
+// Method Definition Index: 103746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateOrderAsyncU3Ed__13_MoveNext_m1492102416B4B5E276E30AFB41B1DE534A3C92B0 (U3CUpdateOrderAsyncU3Ed__13_tA5DC98CDBE5C03208D74290D07DEE66B9AA60AD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2184,7 +2184,7 @@ IL2CPP_EXTERN_C  void U3CUpdateOrderAsyncU3Ed__13_MoveNext_m1492102416B4B5E276E3
 	_thisAdjusted = il2cpp_codegen_get_raw_data<U3CUpdateOrderAsyncU3Ed__13_tA5DC98CDBE5C03208D74290D07DEE66B9AA60AD6>(__this);
 	U3CUpdateOrderAsyncU3Ed__13_MoveNext_m1492102416B4B5E276E30AFB41B1DE534A3C92B0(_thisAdjusted, method);
 }
-// Method Definition Index: 103740
+// Method Definition Index: 103747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateOrderAsyncU3Ed__13_SetStateMachine_m6E54F146113AB29AF4B6B546E7433DBE2324B457 (U3CUpdateOrderAsyncU3Ed__13_tA5DC98CDBE5C03208D74290D07DEE66B9AA60AD6* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

@@ -1525,7 +1525,7 @@ IL2CPP_EXTERN_C int32_t CDECL vuValidationAreaCaptureUploadDestroy(intptr_t);
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100687
+// Method Definition Index: 100694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuEngineCreateValidationAreaObserver_m4A06984DC8DADBFBC76B439A884A062C455E4133 (intptr_t ___0_engineHandle, intptr_t* ___1_observerHandle, VuValidationAreaConfig_tE751FB3FD9B3F3E7443651A0ECAB71EF9381528D* ___2_config, int32_t* ___3_errorCode, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1561,7 +1561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuEngineCrea
 
 	return returnValue;
 }
-// Method Definition Index: 100688
+// Method Definition Index: 100695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuEngineCreateValidationAreaObserverFromFileConfig_mE450AD497E6593E63852DC3C07E841D8D8F2880D (intptr_t ___0_engineHandle, intptr_t* ___1_observerHandle, Internal_t8902641E2E0645010A25F386183F10778823BC13* ___2_config, int32_t* ___3_errorCode, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1591,7 +1591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuEngineCrea
 
 	return returnValue;
 }
-// Method Definition Index: 100689
+// Method Definition Index: 100696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuEngineCreateValidationAreaObserverFromBufferConfig_mCDE5BEBD8F10C74A3D2B9A9F8DC45F0AD9E950DA (intptr_t ___0_engineHandle, intptr_t* ___1_observerHandle, Internal_tA24C6804D22B34A9876AD24E7629EFFB78468D7B* ___2_config, int32_t* ___3_errorCode, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1621,7 +1621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuEngineCrea
 
 	return returnValue;
 }
-// Method Definition Index: 100690
+// Method Definition Index: 100697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidationAreaObserverGetUniqueId_mF0EBA16B941AC7D743807228BE85160969D1B683 (intptr_t ___0_observerHandle, intptr_t* ___1_areaId, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1644,7 +1644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidation
 
 	return returnValue;
 }
-// Method Definition Index: 100691
+// Method Definition Index: 100698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidationAreaObserverGetAreaName_m36B002D9D216FC87A3AF16B4FE547147BA5FBC47 (intptr_t ___0_observerHandle, intptr_t* ___1_areaName, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1667,7 +1667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidation
 
 	return returnValue;
 }
-// Method Definition Index: 100692
+// Method Definition Index: 100699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidationAreaObserverGetSize_m7FA877E2F42742A1252F20AEE260061985F854A4 (intptr_t ___0_observerHandle, VuVector3F_t0D8184FEC600D512E82695E2BE073109B24E62D5* ___1_size, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1690,7 +1690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidation
 
 	return returnValue;
 }
-// Method Definition Index: 100693
+// Method Definition Index: 100700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidationAreaObserverGetOffsetToAssociatedObserver_m2120E8C7299FF4E5CD62429DABD04CAC0AB45778 (intptr_t ___0_observerHandle, VuMatrix44F_tC75A0AF8524BED265F800A953806F30FA28B8DE6* ___1_offset, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1713,7 +1713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidation
 
 	return returnValue;
 }
-// Method Definition Index: 100694
+// Method Definition Index: 100701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidationAreaObserverIsClassifierTrained_m9BE07A8D54E7A79829AF848FBD8B0DBBB6F55AF7 (intptr_t ___0_observerHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1736,7 +1736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidation
 
 	return returnValue;
 }
-// Method Definition Index: 100695
+// Method Definition Index: 100702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidationAreaObserverGetAvailableLabels_mA728AAEA073A1320B098272DE1922B2C17DA32FC (intptr_t ___0_observerHandle, intptr_t ___1_list, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1759,7 +1759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidation
 
 	return returnValue;
 }
-// Method Definition Index: 100696
+// Method Definition Index: 100703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidationAreaObserverGetRepresentativeImageInfos_m38A81DB06249E13093679128EC4BF8C89AED7CDC (intptr_t ___0_observerHandle, intptr_t ___1_list, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1782,7 +1782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidation
 
 	return returnValue;
 }
-// Method Definition Index: 100697
+// Method Definition Index: 100704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidationAreaObserverSetAssociatedObserver_mB5EC573E6A19BCBE97A3BB27500BD412D2C07479 (intptr_t ___0_observerHandle, intptr_t ___1_associatedObserverHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1805,7 +1805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidation
 
 	return returnValue;
 }
-// Method Definition Index: 100698
+// Method Definition Index: 100705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidationAreaObserverGetAssociatedObserver_m9C9D1F60ACE5924E220B9A25E7D89BDC3A177082 (intptr_t ___0_observerHandle, intptr_t* ___1_associatedObserverHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1828,7 +1828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidation
 
 	return returnValue;
 }
-// Method Definition Index: 100699
+// Method Definition Index: 100706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidationAreaObserverRemoveAssociatedObserver_m93FCF44E8A271F3FADC549B21B0EE20595860133 (intptr_t ___0_observerHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1851,7 +1851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuValidation
 
 	return returnValue;
 }
-// Method Definition Index: 100700
+// Method Definition Index: 100707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuObserverGetId_m0282C0E70918BC66FE65DB85C7670CA8084924B2 (intptr_t ___0_observerHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1874,7 +1874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObserver_vuObserverGe
 
 	return returnValue;
 }
-// Method Definition Index: 100701
+// Method Definition Index: 100708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuValidationAreaObserver_get_UniqueID_m3B6546157C1B7C0C8174C230D4B02A33196A542E (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1894,7 +1894,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuValidationAreaObserver_get_Unique
 		return L_2;
 	}
 }
-// Method Definition Index: 100702
+// Method Definition Index: 100709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuValidationAreaObserver_get_AreaName_m68A1970B2C650FD881377FBF675900D06AA11F2B (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1914,7 +1914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuValidationAreaObserver_get_AreaNa
 		return L_2;
 	}
 }
-// Method Definition Index: 100703
+// Method Definition Index: 100710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuVector3F_t0D8184FEC600D512E82695E2BE073109B24E62D5 VuValidationAreaObserver_get_AreaSize_mD81E35F08B76D97C7DC4F19F1D60727E9466D671 (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1935,7 +1935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuVector3F_t0D8184FEC600D512E82695E2BE073109B
 		return L_2;
 	}
 }
-// Method Definition Index: 100704
+// Method Definition Index: 100711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuMatrix44F_tC75A0AF8524BED265F800A953806F30FA28B8DE6 VuValidationAreaObserver_get_OffsetToAssociatedObserver_m2A6B9E78911434B77E5D3D364B28CB8A39266BCB (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1956,7 +1956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuMatrix44F_tC75A0AF8524BED265F800A953806F30F
 		return L_2;
 	}
 }
-// Method Definition Index: 100705
+// Method Definition Index: 100712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaObserver_get_IsClassifierTrained_m7D6A56C54CADD42AD922A605FF5923A4227DC246 (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1969,7 +1969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaObserver_get_IsClassifie
 		return L_2;
 	}
 }
-// Method Definition Index: 100706
+// Method Definition Index: 100713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VuValidationAreaObserver_get_AvailableLabels_mBB56F67F301AC27E4AE54036713FBF785144C151 (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2104,7 +2104,7 @@ IL_0068:
 		return L_19;
 	}
 }
-// Method Definition Index: 100707
+// Method Definition Index: 100714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VuValidationAreaObserver_get_RepresentativeImageInfos_m2532927D92534F0B5F2E0FB6689663FAE5F03911 (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2232,7 +2232,7 @@ IL_0056:
 		return L_18;
 	}
 }
-// Method Definition Index: 100708
+// Method Definition Index: 100715
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* VuValidationAreaObserver_Create_mEC98ECF1275FBB740C518A671579C1BA4DFEA333 (VuEngine_t1F34A373F1915ADEC0EF00456B2A186075AEB8F8* ___0_engine, VuValidationAreaConfig_tE751FB3FD9B3F3E7443651A0ECAB71EF9381528D* ___1_config, int32_t* ___2_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2273,7 +2273,7 @@ IL_001d:
 		return (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907*)NULL;
 	}
 }
-// Method Definition Index: 100709
+// Method Definition Index: 100716
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* VuValidationAreaObserver_Create_m9947A964FBCA0DD4E129015A6C9DCCA50D4CDDB3 (VuEngine_t1F34A373F1915ADEC0EF00456B2A186075AEB8F8* ___0_engine, VuValidationAreaFileConfig_tD0C591E40E9B2966C7A044D360EF1AA93EF3A13B* ___1_config, int32_t* ___2_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2319,7 +2319,7 @@ IL_0025:
 		return (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907*)NULL;
 	}
 }
-// Method Definition Index: 100710
+// Method Definition Index: 100717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* VuValidationAreaObserver_Create_mA4064A635836414B8E4DBF9DCF1AE1DD69B4DA38 (VuEngine_t1F34A373F1915ADEC0EF00456B2A186075AEB8F8* ___0_engine, VuValidationAreaBufferConfig_tE96FFA63D81203A9345F404A1C84C50375BBCD7D* ___1_config, int32_t* ___2_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2365,7 +2365,7 @@ IL_0025:
 		return (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907*)NULL;
 	}
 }
-// Method Definition Index: 100711
+// Method Definition Index: 100718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaObserver__ctor_m2F0EDB3E5498EABE618AE98B647E22FD9527DCA3 (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* __this, VuEngine_t1F34A373F1915ADEC0EF00456B2A186075AEB8F8* ___0_engine, intptr_t ___1_nativeHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2376,7 +2376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaObserver__ctor_m2F0EDB3E
 		return;
 	}
 }
-// Method Definition Index: 100712
+// Method Definition Index: 100719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaObserver_SetAssociatedObserver_m292FC0B4F30B05EE201D21AC9041B93AAD140BD5 (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* __this, RuntimeObject* ___0_associatedObserver, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2414,7 +2414,7 @@ IL_0026:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 100713
+// Method Definition Index: 100720
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VuValidationAreaObserver_GetAssociatedObserver_mF5BAAE9329654D3E19DE18DEBC602D5003BD1B98 (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2450,7 +2450,7 @@ IL_0028:
 		return (RuntimeObject*)NULL;
 	}
 }
-// Method Definition Index: 100714
+// Method Definition Index: 100721
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaObserver_RemoveAssociatedObserver_m80EC2A569AE0DD25115F95547989429156DE4D2C (VuValidationAreaObserver_t4448F64C8F1532F8D93B93742BC10A84F5777907* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2471,7 +2471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaObserver_RemoveAssociate
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100715
+// Method Definition Index: 100722
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaLabelList_vuValidationAreaLabelListCreate_m306944F72E8FAC0A12749A9AC1D125E0BDE6683A (intptr_t* ___0_listHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2494,7 +2494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaLabelList_vuValidatio
 
 	return returnValue;
 }
-// Method Definition Index: 100716
+// Method Definition Index: 100723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaLabelList_vuValidationAreaLabelListGetSize_mEAE0D2D5D3C4E7A255C3D6F86ACDC520375FC4BE (intptr_t ___0_listHandle, int32_t* ___1_size, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2517,7 +2517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaLabelList_vuValidatio
 
 	return returnValue;
 }
-// Method Definition Index: 100717
+// Method Definition Index: 100724
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaLabelList_vuValidationAreaLabelListGetElement_m259ECF478AD5F4EEA21A99D4DD705821BAA98F81 (intptr_t ___0_listHandle, int32_t ___1_element, intptr_t* ___2_observationHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2540,7 +2540,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaLabelList_vuValidatio
 
 	return returnValue;
 }
-// Method Definition Index: 100718
+// Method Definition Index: 100725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaLabelList_vuValidationAreaLabelListDestroy_m51C75C85CA9E63B0C145CAC2CD38692700B57CEB (intptr_t ___0_listHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2563,7 +2563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaLabelList_vuValidatio
 
 	return returnValue;
 }
-// Method Definition Index: 100719
+// Method Definition Index: 100726
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaLabelList__ctor_m591EE27D3BA58E9EFF06A66DC6FABD505365769A (VuValidationAreaLabelList_tC7F1B04453D31031C9D7B02D4048BE7A1C191790* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2594,7 +2594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaLabelList__ctor_m591EE27
 		return;
 	}
 }
-// Method Definition Index: 100720
+// Method Definition Index: 100727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaLabel_t7BE793E647F3C7E6F54F30342BE3A7530AE198CB* VuValidationAreaLabelList_GetElement_m642C78C36391F864FDB12DF7720C542B06AF4B50 (VuValidationAreaLabelList_tC7F1B04453D31031C9D7B02D4048BE7A1C191790* __this, intptr_t ___0_nativeElement, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2613,7 +2613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaLabel_t7BE793E647F3C7E6F54F30
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100721
+// Method Definition Index: 100728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuRepresentativeImageInfoList_vuRepresentativeImageInfoListCreate_mFD33265233A9A158095EE8F22B7D6F363B491AB4 (intptr_t* ___0_listHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2636,7 +2636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuRepresentativeImageInfoList_vuRepre
 
 	return returnValue;
 }
-// Method Definition Index: 100722
+// Method Definition Index: 100729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuRepresentativeImageInfoList_vuRepresentativeImageInfoListGetSize_m3AFEA9E4989923C7254DDC92E5CCFCFDCD32ADF7 (intptr_t ___0_listHandle, int32_t* ___1_size, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2659,7 +2659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuRepresentativeImageInfoList_vuRepre
 
 	return returnValue;
 }
-// Method Definition Index: 100723
+// Method Definition Index: 100730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuRepresentativeImageInfoList_vuRepresentativeImageInfoListGetElement_mAA614FECED4382A278D1AB2A2788BB3C0CA04387 (intptr_t ___0_listHandle, int32_t ___1_element, Internal_t829107C961AD9CE4A2F067019607699F3C71061A* ___2_observationHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2682,7 +2682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuRepresentativeImageInfoList_vuRepre
 
 	return returnValue;
 }
-// Method Definition Index: 100724
+// Method Definition Index: 100731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuRepresentativeImageInfoList_vuRepresentativeImageInfoListDestroy_m5814C3E71E3830D8DA65D650BE25B506BE3AB03F (intptr_t ___0_listHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2705,7 +2705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuRepresentativeImageInfoList_vuRepre
 
 	return returnValue;
 }
-// Method Definition Index: 100725
+// Method Definition Index: 100732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuRepresentativeImageInfoList__ctor_m0D661EB2A1815A0B276ED1B0C81C58A182034ADB (VuRepresentativeImageInfoList_t2A65AC40837257CFF84747A7794376FDEB06E8C5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2736,7 +2736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuRepresentativeImageInfoList__ctor_m0D6
 		return;
 	}
 }
-// Method Definition Index: 100726
+// Method Definition Index: 100733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuRepresentativeImageInfo_tCA6AC4EB357BA329BF1AA8E4EB08C5BBAFAD483E VuRepresentativeImageInfoList_GetElement_m93A87468DE55B2E21CC5FB86B7BDC3C09F9039B3 (VuRepresentativeImageInfoList_t2A65AC40837257CFF84747A7794376FDEB06E8C5* __this, Internal_t829107C961AD9CE4A2F067019607699F3C71061A ___0_nativeElement, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2822,7 +2822,7 @@ IL2CPP_EXTERN_C void VuValidationAreaObservationAreaInfo_t6F503D3A05B3B832007AB6
 	il2cpp_codegen_marshal_free_bstring(marshaled.___name);
 	marshaled.___name = NULL;
 }
-// Method Definition Index: 100727
+// Method Definition Index: 100734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObservationAreaInfo_vuValidationAreaObservationGetAreaInfo_mFBC61E6012FBD2450C709CCDF824DC4D5D3A5D05 (intptr_t ___0_observation, Internal_t6376918676CFA0A16095EC598479160A35905FC0* ___1_areaInfo, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2845,7 +2845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObservationAreaInfo_v
 
 	return returnValue;
 }
-// Method Definition Index: 100728
+// Method Definition Index: 100735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaObservationAreaInfo_t6F503D3A05B3B832007AB62EC155FECCC623E534 VuValidationAreaObservationAreaInfo_Create_mD66656DBD01DAF755312A125914451773C1CF8F2 (intptr_t ___0_observationHandle, const RuntimeMethod* method) 
 {
 	CHECKED_LOCAL(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_StaticInit);
@@ -3071,7 +3071,7 @@ IL2CPP_EXTERN_C void VuValidationAreaObservationValidationInfo_tFFA4F6D02658485A
 		marshaled.___vertices = NULL;
 	}
 }
-// Method Definition Index: 100729
+// Method Definition Index: 100736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObservationValidationInfo_vuValidationAreaObservationGetValidationInfo_m732B842452593DA59181D4E5076E12418C71521D (intptr_t ___0_observation, Internal_tCDE06CDD81BC3132AFE22E6CEE313F5F5D7003E3* ___1_validationInfo, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3107,7 +3107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObservationValidation
 
 	return returnValue;
 }
-// Method Definition Index: 100730
+// Method Definition Index: 100737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaObservationValidationInfo_tFFA4F6D02658485AFD2F6D2634320D67B60B3860 VuValidationAreaObservationValidationInfo_Create_mDE5BE368484A42166FE7E9965B1C02FC1AFDC35C (intptr_t ___0_observationHandle, const RuntimeMethod* method) 
 {
 	CHECKED_LOCAL(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_StaticInit);
@@ -3309,7 +3309,7 @@ IL2CPP_EXTERN_C void Internal_tCDE06CDD81BC3132AFE22E6CEE313F5F5D7003E3_marshal_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100734
+// Method Definition Index: 100741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObservation_vuValidationAreaObservationGetStatusInfo_m42305AE7328ADBF79A901A08A0EAFF72A6A488C6 (intptr_t ___0_observation, int32_t* ___1_statusInfo, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3332,7 +3332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObservation_vuValidat
 
 	return returnValue;
 }
-// Method Definition Index: 100735
+// Method Definition Index: 100742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaObservation_get_StatusInfo_m9255703BB2872425D5331EBDE86B7E1A66023C10 (VuValidationAreaObservation_t62F283EEC2923949690C4660DB8BEA67D9B6E2A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3369,7 +3369,7 @@ IL_0026:
 		return L_6;
 	}
 }
-// Method Definition Index: 100736
+// Method Definition Index: 100743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaObservationAreaInfo_t6F503D3A05B3B832007AB62EC155FECCC623E534 VuValidationAreaObservation_get_AreaInfo_m32CFA892CF0AD4E89C7AA4B937E6F321F18E65C0 (VuValidationAreaObservation_t62F283EEC2923949690C4660DB8BEA67D9B6E2A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3405,7 +3405,7 @@ IL_0026:
 		return L_6;
 	}
 }
-// Method Definition Index: 100737
+// Method Definition Index: 100744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaObservationValidationInfo_tFFA4F6D02658485AFD2F6D2634320D67B60B3860 VuValidationAreaObservation_get_ValidationInfo_mE2C824D9C815C6522F8026EDB5DBF56245BC68EE (VuValidationAreaObservation_t62F283EEC2923949690C4660DB8BEA67D9B6E2A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3441,7 +3441,7 @@ IL_0026:
 		return L_6;
 	}
 }
-// Method Definition Index: 100738
+// Method Definition Index: 100745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaObservation__ctor_mB9FDD65D52183EC88CC6A8B038ABBE65A2AFC559 (VuValidationAreaObservation_t62F283EEC2923949690C4660DB8BEA67D9B6E2A6* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3450,7 +3450,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaObservation__ctor_mB9FDD
 		return;
 	}
 }
-// Method Definition Index: 100739
+// Method Definition Index: 100746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaObservation_UnregisterObservation_m640E03E90ECB8D6D40ED4B6094D5D7AF4505B574 (VuValidationAreaObservation_t62F283EEC2923949690C4660DB8BEA67D9B6E2A6* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3547,7 +3547,7 @@ IL2CPP_EXTERN_C void VuValidationAreaCaptureConfig_t6C5DDF5949FEF249C35276C67878
 IL2CPP_EXTERN_C void VuValidationAreaCaptureConfig_t6C5DDF5949FEF249C35276C678785677D0BA5D92_marshal_com_cleanup(VuValidationAreaCaptureConfig_t6C5DDF5949FEF249C35276C678785677D0BA5D92_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 100740
+// Method Definition Index: 100747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VuValidationAreaCaptureConfig_Clone_m8E9FBE2AA260B2C5462F2DD4FC1C3A26317D964F (VuValidationAreaCaptureConfig_t6C5DDF5949FEF249C35276C678785677D0BA5D92* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3586,7 +3586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VuValidationAreaCaptureConfig_
 		return L_9;
 	}
 }
-// Method Definition Index: 100741
+// Method Definition Index: 100748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaCaptureConfig__ctor_m99A67A8DFFB52D3A80A564551867047E53B32476 (VuValidationAreaCaptureConfig_t6C5DDF5949FEF249C35276C678785677D0BA5D92* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3677,7 +3677,7 @@ IL2CPP_EXTERN_C void Internal_t500D78B6BC6314772E2F365200681470CF6CA9A2_marshal_
 	il2cpp_codegen_marshal_free(marshaled.___sessionId);
 	marshaled.___sessionId = NULL;
 }
-// Method Definition Index: 100742
+// Method Definition Index: 100749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Internal_t500D78B6BC6314772E2F365200681470CF6CA9A2 Internal_Create_m86D464746F5D1808A83008C7C320A75A9ADE5D22 (VuValidationAreaCaptureConfig_t6C5DDF5949FEF249C35276C678785677D0BA5D92* ___0_config, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3751,7 +3751,7 @@ IL_0025:
 		return L_12;
 	}
 }
-// Method Definition Index: 100743
+// Method Definition Index: 100750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Internal_Clone_m2AB04196F6137F4D1F24B673E54B6C11973CA878 (Internal_t500D78B6BC6314772E2F365200681470CF6CA9A2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3799,7 +3799,7 @@ IL2CPP_EXTERN_C  RuntimeObject* Internal_Clone_m2AB04196F6137F4D1F24B673E54B6C11
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100745
+// Method Definition Index: 100752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureController_vuEngineGetValidationAreaCaptureController_mAA0858AE185307ACE49898B4F5CC6A8C90EC8BB8 (intptr_t ___0_engine, intptr_t* ___1_controller, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3822,7 +3822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureController_vuE
 
 	return returnValue;
 }
-// Method Definition Index: 100746
+// Method Definition Index: 100753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureController_vuValidationAreaCaptureControllerCreateValidationAreaCapture_m9B0621AAB8E6B8C0D6C9A15E6529917FD4269A73 (intptr_t ___0_controller, Internal_t500D78B6BC6314772E2F365200681470CF6CA9A2* ___1_config, intptr_t* ___2_capture, int32_t* ___3_error, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3852,7 +3852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureController_vuV
 
 	return returnValue;
 }
-// Method Definition Index: 100747
+// Method Definition Index: 100754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaCaptureController_t9B9EF84F2C317652E038B12BA7555D3C58783F7F* VuValidationAreaCaptureController_Create_m6743EE20376EB477F5D688BF61E1508005C3871B (VuEngine_t1F34A373F1915ADEC0EF00456B2A186075AEB8F8* ___0_engine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3891,7 +3891,7 @@ IL_001a:
 		return L_6;
 	}
 }
-// Method Definition Index: 100748
+// Method Definition Index: 100755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaCaptureController__ctor_mD54D00B9EB014C11F2A83D2BF634D373855C3D94 (VuValidationAreaCaptureController_t9B9EF84F2C317652E038B12BA7555D3C58783F7F* __this, VuEngine_t1F34A373F1915ADEC0EF00456B2A186075AEB8F8* ___0_engine, intptr_t ___1_nativeHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3902,7 +3902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaCaptureController__ctor_
 		return;
 	}
 }
-// Method Definition Index: 100749
+// Method Definition Index: 100756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VuValidationAreaCaptureController_CreateValidationAreaCapture_m5A77CBCE1F983B468F4E72A6E2EE14E1C5B74C7A (VuValidationAreaCaptureController_t9B9EF84F2C317652E038B12BA7555D3C58783F7F* __this, VuValidationAreaCaptureConfig_t6C5DDF5949FEF249C35276C678785677D0BA5D92* ___0_config, int32_t* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3958,7 +3958,7 @@ IL_0021:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100761
+// Method Definition Index: 100768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationAreaCaptureStart_m00218145BC0EC9F178A6A31C89F6EB1C588F263B (intptr_t ___0_capture, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3981,7 +3981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationA
 
 	return returnValue;
 }
-// Method Definition Index: 100762
+// Method Definition Index: 100769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationAreaCaptureStop_mC509E271F8B5D24B44273DEB8DED828C8CBC6F60 (intptr_t ___0_capture, intptr_t ___1_labelName, int32_t* ___2_status, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4004,7 +4004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationA
 
 	return returnValue;
 }
-// Method Definition Index: 100763
+// Method Definition Index: 100770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationAreaCapturePause_m007D9DC31F0D681C443680B45CA52B4AA1DD5C06 (intptr_t ___0_capture, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4027,7 +4027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationA
 
 	return returnValue;
 }
-// Method Definition Index: 100764
+// Method Definition Index: 100771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationAreaCaptureResume_m4599829F0D22580278D5E05AB3D2F3C954DE3F07 (intptr_t ___0_capture, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4050,7 +4050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationA
 
 	return returnValue;
 }
-// Method Definition Index: 100765
+// Method Definition Index: 100772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationAreaCaptureGetCaptureDirectory_m309AFF46AEB3AF1D9DC3C50BD2420F2EE18140DA (intptr_t ___0_capture, intptr_t* ___1_captureDirectory, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4073,7 +4073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationA
 
 	return returnValue;
 }
-// Method Definition Index: 100766
+// Method Definition Index: 100773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationAreaCaptureGetSessionId_mAE720A2789AF7BBE4C59A8F79AD86527B9C54F2E (intptr_t ___0_capture, intptr_t* ___1_sessionId, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4096,7 +4096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationA
 
 	return returnValue;
 }
-// Method Definition Index: 100767
+// Method Definition Index: 100774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationAreaCaptureIsMarkedAsGuided_mB6DE09868364891A1DB54A4766D483C028CC1A09 (intptr_t ___0_capture, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4119,7 +4119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationA
 
 	return returnValue;
 }
-// Method Definition Index: 100768
+// Method Definition Index: 100775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationAreaCaptureGetStatus_mA8B45DFA6E6EA907632DAC563453E486105A1A24 (intptr_t ___0_capture, int32_t* ___1_status, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4142,7 +4142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationA
 
 	return returnValue;
 }
-// Method Definition Index: 100769
+// Method Definition Index: 100776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationAreaCaptureGetStatusInfo_m0B16ABEBA8BCFFBAA1560AD77624F97BEF24C492 (intptr_t ___0_capture, int32_t* ___1_statusInfo, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4165,7 +4165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationA
 
 	return returnValue;
 }
-// Method Definition Index: 100770
+// Method Definition Index: 100777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationAreaCaptureGetProgress_mAF3FDBB6CD7082AFEC19575BF37A8D0D7AC5A091 (intptr_t ___0_capture, VuValidationAreaCaptureProgressInfo_t3DCC9260358D938AA7D06D1A1A5538F5C06F9810* ___1_progressInfo, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4188,7 +4188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationA
 
 	return returnValue;
 }
-// Method Definition Index: 100771
+// Method Definition Index: 100778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationAreaCaptureDestroy_m4D8D69164C42C0A527D746A35B6271E7E4BDFAEC (intptr_t ___0_capture, int32_t ___1_deleteData, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4211,7 +4211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_vuValidationA
 
 	return returnValue;
 }
-// Method Definition Index: 100772
+// Method Definition Index: 100779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t VuValidationAreaCapture_get_NativeHandle_mD2E84261566E1D941CAF04B2E8C4B8344F481957 (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4220,7 +4220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t VuValidationAreaCapture_get_NativeHa
 		return L_0;
 	}
 }
-// Method Definition Index: 100773
+// Method Definition Index: 100780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_get_Status_mCD23923010853AC506C192E2841767A529ADF066 (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4241,7 +4241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_get_Status_mC
 		return L_2;
 	}
 }
-// Method Definition Index: 100774
+// Method Definition Index: 100781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_get_StatusInfo_m288B74C8665B37A52CB50312C8EA168A649087B7 (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4262,7 +4262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCapture_get_StatusInf
 		return L_2;
 	}
 }
-// Method Definition Index: 100775
+// Method Definition Index: 100782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaCaptureProgressInfo_t3DCC9260358D938AA7D06D1A1A5538F5C06F9810 VuValidationAreaCapture_get_ProgressInfo_m3F163C139CAC0C879BA564430F69FB86121553FB (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4283,7 +4283,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaCaptureProgressInfo_t3DCC9260
 		return L_2;
 	}
 }
-// Method Definition Index: 100776
+// Method Definition Index: 100783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuValidationAreaCapture_get_CaptureDirectory_mF6DE66D66D4097F00AB8FB3B84539A07B3BC7072 (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4303,7 +4303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuValidationAreaCapture_get_Capture
 		return L_2;
 	}
 }
-// Method Definition Index: 100777
+// Method Definition Index: 100784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuValidationAreaCapture_get_SessionId_m3881135E61DAB21D40C8ADDBC3887843FBAF8FB9 (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4323,7 +4323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuValidationAreaCapture_get_Session
 		return L_2;
 	}
 }
-// Method Definition Index: 100778
+// Method Definition Index: 100785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCapture_get_IsMarkedAsGuided_m906622C4C49A7DF116039606C931746023C654E5 (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4336,7 +4336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCapture_get_IsMarkedAsGu
 		return L_2;
 	}
 }
-// Method Definition Index: 100779
+// Method Definition Index: 100786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaCapture__ctor_mD1D56844BCE57D04B181108F3A19E03412C27EBD (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, intptr_t ___0_nativeHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4347,7 +4347,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaCapture__ctor_mD1D56844B
 		return;
 	}
 }
-// Method Definition Index: 100780
+// Method Definition Index: 100787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCapture_Start_mDD6F2083DBB4C2D7D8917EDF54EDCD53C9F67B70 (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4360,7 +4360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCapture_Start_mDD6F2083D
 		return L_2;
 	}
 }
-// Method Definition Index: 100781
+// Method Definition Index: 100788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCapture_Stop_mC193132091336798E3D740D9777894A932F54660 (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, String_t* ___0_labelName, const RuntimeMethod* method) 
 {
 	CHECKED_LOCAL(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_StaticInit);
@@ -4415,7 +4415,7 @@ IL_0024:
 		return L_7;
 	}
 }
-// Method Definition Index: 100782
+// Method Definition Index: 100789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCapture_Pause_m3FC9A107284092140253D89BF1B85B81EDE0A78C (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4428,7 +4428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCapture_Pause_m3FC9A1072
 		return L_2;
 	}
 }
-// Method Definition Index: 100783
+// Method Definition Index: 100790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCapture_Resume_mCD2D4DC5A66711C8D42D6A76E83284B866133D88 (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4441,7 +4441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCapture_Resume_mCD2D4DC5
 		return L_2;
 	}
 }
-// Method Definition Index: 100784
+// Method Definition Index: 100791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCapture_Destroy_m831A1B88A1200DF3E18443A73FD13808F4113DDB (VuValidationAreaCapture_t4E68AAEFEBB94CD994FD614CEE0DAC923992EE2D* __this, bool ___0_deleteData, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4554,7 +4554,7 @@ IL2CPP_EXTERN_C void VuValidationAreaCaptureUploadConfig_tE5F1DB859CB4B77BB31BC0
 	il2cpp_codegen_marshal_free(marshaled.___secretAuth);
 	marshaled.___secretAuth = NULL;
 }
-// Method Definition Index: 100785
+// Method Definition Index: 100792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VuValidationAreaCaptureUploadConfig_Clone_m56D24CBC584FFACE350E107BBFB8F9E6563509EA (VuValidationAreaCaptureUploadConfig_tE5F1DB859CB4B77BB31BC01BD6E24145A64F62DC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4589,7 +4589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VuValidationAreaCaptureUploadC
 		return L_7;
 	}
 }
-// Method Definition Index: 100786
+// Method Definition Index: 100793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaCaptureUploadConfig__ctor_m3149C1E4E1A422B198FB75B45793E001465041B6 (VuValidationAreaCaptureUploadConfig_tE5F1DB859CB4B77BB31BC01BD6E24145A64F62DC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4616,7 +4616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaCaptureUploadConfig__cto
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100788
+// Method Definition Index: 100795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuUploadController_vuEngineGetUploadController_m61C02E969C19FBA1FCFBBFC8E1F403E70B9B184E (intptr_t ___0_engine, intptr_t* ___1_controller, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4639,7 +4639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuUploadController_vuEngineGetUploadC
 
 	return returnValue;
 }
-// Method Definition Index: 100789
+// Method Definition Index: 100796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuUploadController_vuUploadControllerCreateValidationAreaCaptureUpload_m652E4EC452908E709FF93BC808993327B015628F (intptr_t ___0_controller, VuValidationAreaCaptureUploadConfig_tE5F1DB859CB4B77BB31BC01BD6E24145A64F62DC* ___1_config, intptr_t* ___2_capture, int32_t* ___3_error, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4675,7 +4675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuUploadController_vuUploadController
 
 	return returnValue;
 }
-// Method Definition Index: 100790
+// Method Definition Index: 100797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuUploadController_t30BE21C7D4882C8782150571AED4C24220955986* VuUploadController_Create_m4E53E0FE0CB9D683C2B96BD7D2ED5FB3F9C897B2 (VuEngine_t1F34A373F1915ADEC0EF00456B2A186075AEB8F8* ___0_engine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4714,7 +4714,7 @@ IL_001a:
 		return L_6;
 	}
 }
-// Method Definition Index: 100791
+// Method Definition Index: 100798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuUploadController__ctor_m853DE6D43CCFBBAD0298A6C49CF9E4DAA9CEA7CF (VuUploadController_t30BE21C7D4882C8782150571AED4C24220955986* __this, VuEngine_t1F34A373F1915ADEC0EF00456B2A186075AEB8F8* ___0_engine, intptr_t ___1_nativeHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4725,7 +4725,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuUploadController__ctor_m853DE6D43CCFBB
 		return;
 	}
 }
-// Method Definition Index: 100792
+// Method Definition Index: 100799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VuUploadController_CreateValidationAreaCaptureUpload_mF4D400F6A9EA11D859A5F57E4E859B8C6A5500F9 (VuUploadController_t30BE21C7D4882C8782150571AED4C24220955986* __this, VuValidationAreaCaptureUploadConfig_tE5F1DB859CB4B77BB31BC01BD6E24145A64F62DC* ___0_config, int32_t* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4768,7 +4768,7 @@ IL_0019:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100799
+// Method Definition Index: 100806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadStart_m1074010D8C5175B31339F862785DB84EE4B4E19E (intptr_t ___0_upload, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4791,7 +4791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_vuValid
 
 	return returnValue;
 }
-// Method Definition Index: 100800
+// Method Definition Index: 100807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadCancel_m18B985096AC301D7F6C49C2AC9DDA806F649DEC6 (intptr_t ___0_upload, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4814,7 +4814,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_vuValid
 
 	return returnValue;
 }
-// Method Definition Index: 100801
+// Method Definition Index: 100808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetStatus_mDC1C00534B0EB9A24DDAF7C5E4B928C26F005EAE (intptr_t ___0_upload, int32_t* ___1_status, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4837,7 +4837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_vuValid
 
 	return returnValue;
 }
-// Method Definition Index: 100802
+// Method Definition Index: 100809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetStatusInfo_m40600801C8C4F0C04A69E58B2AE1FEE7BF5E9AD2 (intptr_t ___0_upload, int32_t* ___1_statusInfo, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4860,7 +4860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_vuValid
 
 	return returnValue;
 }
-// Method Definition Index: 100803
+// Method Definition Index: 100810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadGetProgress_m7A298A7D53D95377D4003862CEC131EFA9910BC8 (intptr_t ___0_upload, VuValidationAreaCaptureUploadProgressInfo_t7440BB52FFF00C3F7E13AB128C5B5D2EE1D43242* ___1_uploadProgressInfo, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4883,7 +4883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_vuValid
 
 	return returnValue;
 }
-// Method Definition Index: 100804
+// Method Definition Index: 100811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_vuValidationAreaCaptureUploadDestroy_m3E7C7FA6266E9A9AA645F4C9A2D88D88678D6BB9 (intptr_t ___0_upload, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4906,7 +4906,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_vuValid
 
 	return returnValue;
 }
-// Method Definition Index: 100805
+// Method Definition Index: 100812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t VuValidationAreaCaptureUpload_get_NativeHandle_m458E7F769ADEC803C0D4BD9BA9048F73E0AE8691 (VuValidationAreaCaptureUpload_t466A5FA1E1D7FBA7410D2AA50D299E18205E7E0E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4915,7 +4915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t VuValidationAreaCaptureUpload_get_Na
 		return L_0;
 	}
 }
-// Method Definition Index: 100806
+// Method Definition Index: 100813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_get_Status_mF1B59EBD85B4E02CF26FB6D5FDE9E5590AA9EB75 (VuValidationAreaCaptureUpload_t466A5FA1E1D7FBA7410D2AA50D299E18205E7E0E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4936,7 +4936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_get_Sta
 		return L_2;
 	}
 }
-// Method Definition Index: 100807
+// Method Definition Index: 100814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_get_StatusInfo_mEA8724DE257FC9FCA8035BE55E57238033E0B6F5 (VuValidationAreaCaptureUpload_t466A5FA1E1D7FBA7410D2AA50D299E18205E7E0E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4957,7 +4957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t VuValidationAreaCaptureUpload_get_Sta
 		return L_2;
 	}
 }
-// Method Definition Index: 100808
+// Method Definition Index: 100815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaCaptureUploadProgressInfo_t7440BB52FFF00C3F7E13AB128C5B5D2EE1D43242 VuValidationAreaCaptureUpload_get_ProgressInfo_m95F64324D8E8DA24D58D2ECEEF2937856024FFFF (VuValidationAreaCaptureUpload_t466A5FA1E1D7FBA7410D2AA50D299E18205E7E0E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4978,7 +4978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VuValidationAreaCaptureUploadProgressInfo_t74
 		return L_2;
 	}
 }
-// Method Definition Index: 100809
+// Method Definition Index: 100816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaCaptureUpload__ctor_m06B3907188FBD6BAE32105D318A4146960A4DBCA (VuValidationAreaCaptureUpload_t466A5FA1E1D7FBA7410D2AA50D299E18205E7E0E* __this, intptr_t ___0_nativeHandle, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4989,7 +4989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuValidationAreaCaptureUpload__ctor_m06B
 		return;
 	}
 }
-// Method Definition Index: 100810
+// Method Definition Index: 100817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCaptureUpload_Start_mAD2CACCD6A740F6D363E2FAA6A67175E09C9DA07 (VuValidationAreaCaptureUpload_t466A5FA1E1D7FBA7410D2AA50D299E18205E7E0E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5002,7 +5002,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCaptureUpload_Start_mAD2
 		return L_2;
 	}
 }
-// Method Definition Index: 100811
+// Method Definition Index: 100818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCaptureUpload_Cancel_m51B1DF031FCD0899E88BD482E0F6402EC53FE2CB (VuValidationAreaCaptureUpload_t466A5FA1E1D7FBA7410D2AA50D299E18205E7E0E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5015,7 +5015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCaptureUpload_Cancel_m51
 		return L_2;
 	}
 }
-// Method Definition Index: 100812
+// Method Definition Index: 100819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCaptureUpload_Destroy_mDE7EA21F85A3393173A74214540C4BE738F93BAB (VuValidationAreaCaptureUpload_t466A5FA1E1D7FBA7410D2AA50D299E18205E7E0E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5072,7 +5072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VuValidationAreaCaptureUpload_Destroy_mD
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 99796
+// Method Definition Index: 99803
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t VuEngine_get_NativeHandle_m627B2FB5C12F7BEDA0A6FEF45800E2536E9BC595_inline (VuEngine_t1F34A373F1915ADEC0EF00456B2A186075AEB8F8* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5081,7 +5081,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t VuEngine_get_NativeHandl
 		return L_0;
 	}
 }
-// Method Definition Index: 100225
+// Method Definition Index: 100232
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t VuObserver_get_NativeHandle_m0DF9843ED5DCA1A40CD3A38E73C34795D6B68642_inline (VuObserver_t90742BFE20A846DDA5C7064512EC0D4C4B0F0B80* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5090,7 +5090,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t VuObserver_get_NativeHan
 		return L_0;
 	}
 }
-// Method Definition Index: 100609
+// Method Definition Index: 100616
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t VuGenericList_1_get_NativeHandle_m6F15516897AA7E5F9008601AD32DE7637A3B5710_fshared_inline (VuGenericList_1_t12481597D5714D7ABBE45EF1A56AA3E52BE3B050* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

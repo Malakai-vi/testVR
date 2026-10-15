@@ -1,12 +1,15 @@
 using UnityEngine;
 using Vuforia;
 using TMPro;
+using Unity.VisualScripting;
 
 public class Cubo : MonoBehaviour
 {
     private ObserverBehaviour observer;
+    [SerializeField] string figuraImageTarget;
+    public GameControler controladorJuego;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         observer = GetComponent<ObserverBehaviour>();
     }
@@ -25,9 +28,10 @@ public class Cubo : MonoBehaviour
 
     private void OnTargetStatusChanged(ObserverBehaviour behaviour, TargetStatus status)
     {
-        
+        //Logica del juego
+        controladorJuego.chequear(figuraImageTarget);
     }
-    // Update is called once per frame
+    
     void Update()
     {
 
