@@ -551,6 +551,7 @@
           {
             "name": "Sprite",
             "scenes": [
+              "Assets/Scenes/Escena1.unity",
               "Assets/Scenes/EscenaMenu.unity"
             ],
             "dependencyType": 0,

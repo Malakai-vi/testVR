@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="icosaedro" size="0.300000 0.300000" />
+    <ImageTarget name="dodecaedro" size="0.300000 0.300000" />
+    <ImageTarget name="toro" size="0.300000 0.225293" />
     <ImageTarget name="piramide" size="0.300000 0.399864" />
     <ImageTarget name="pelota" size="0.300000 0.200391" />
     <ImageTarget name="cubo" size="0.300000 0.300000" />

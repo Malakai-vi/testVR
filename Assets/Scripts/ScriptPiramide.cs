@@ -1,14 +1,12 @@
 using UnityEngine;
 using Vuforia;
-using TMPro;
-using Unity.VisualScripting;
 
 public class Piramide : MonoBehaviour
 {
     private ObserverBehaviour observer;
-    [SerializeField] string figuraImageTarget;
-    public GameControler controladorJuego;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] string figuraImageTarget = "Piramide";
+    public GameController controladorJuego;
+
     void Awake()
     {
         observer = GetComponent<ObserverBehaviour>();
@@ -28,12 +26,13 @@ public class Piramide : MonoBehaviour
 
     private void OnTargetStatusChanged(ObserverBehaviour behaviour, TargetStatus status)
     {
-        //Logica del juego
-        controladorJuego.chequear(figuraImageTarget);
-    }
-
-    void Update()
-    {
-
+        // Solo actúa cuando la cámara enfoca activamente el marcador
+        if (status.Status == Status.TRACKED || status.Status == Status.EXTENDED_TRACKED)
+        {
+            if (controladorJuego != null)
+            {
+                controladorJuego.chequear(figuraImageTarget);
+            }
+        }
     }
 }
