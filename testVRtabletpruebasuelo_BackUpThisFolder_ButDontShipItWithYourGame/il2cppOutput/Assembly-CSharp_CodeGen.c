@@ -7,6 +7,10 @@
 
 
 
+extern void EnemigoControler_Start_mA439BF7AF1F21F43E110DD9FA16BA95881E2EF75 (void);
+extern void EnemigoControler_Update_m4933A82A55835343DCD1FDCFF2D9377FECE2FBAD (void);
+extern void EnemigoControler_OnCollisionEnter_mD80DDB1DC806AF55799256F4BEF3B2307655913B (void);
+extern void EnemigoControler__ctor_mDFB4660A607229B8C79796E6606CF810F87F6B4A (void);
 extern void GameControlerDeteccionPlano_Start_mDF356CF73BBF451C3392FD40C37B4354BDFD7FDE (void);
 extern void GameControlerDeteccionPlano_FixedUpdate_mB63EF0D05AF1C170B1703CFB5F07CF7FE3DB9332 (void);
 extern void GameControlerDeteccionPlano_Acelerar_mC9398F0A874CA0C93B48989C56A8D08FF8BEAE4B (void);
@@ -51,8 +55,12 @@ extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
 extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
 extern void VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3C4 (void);
 extern void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (void);
-static Il2CppMethodPointer s_methodPointers[44] = 
+static Il2CppMethodPointer s_methodPointers[48] = 
 {
+	EnemigoControler_Start_mA439BF7AF1F21F43E110DD9FA16BA95881E2EF75,
+	EnemigoControler_Update_m4933A82A55835343DCD1FDCFF2D9377FECE2FBAD,
+	EnemigoControler_OnCollisionEnter_mD80DDB1DC806AF55799256F4BEF3B2307655913B,
+	EnemigoControler__ctor_mDFB4660A607229B8C79796E6606CF810F87F6B4A,
 	GameControlerDeteccionPlano_Start_mDF356CF73BBF451C3392FD40C37B4354BDFD7FDE,
 	GameControlerDeteccionPlano_FixedUpdate_mB63EF0D05AF1C170B1703CFB5F07CF7FE3DB9332,
 	GameControlerDeteccionPlano_Acelerar_mC9398F0A874CA0C93B48989C56A8D08FF8BEAE4B,
@@ -102,7 +110,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	44,
+	48,
 	s_methodPointers,
 	0,
 	NULL,

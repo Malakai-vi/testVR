@@ -14,9 +14,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Escena1.unity
     guid: 3b7e0cf18c37369418d2d6792fa7da53
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DeteccionPlano.unity
     guid: 6ec21e05e3d938c468e9b17ec09ce12a
+  - enabled: 0
+    path: Assets/Scenes/DeteccionPlanoDos.unity
+    guid: 940edc5f87cffe24eb8da6b477ac0c49
+  - enabled: 1
+    path: Assets/Scenes/PlanoEnemigo.unity
+    guid: 85f5fba86c8a71f4c929b20dfd0f5ddb
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: a0be8d1cb8cd83141a974f29ea34b533, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
