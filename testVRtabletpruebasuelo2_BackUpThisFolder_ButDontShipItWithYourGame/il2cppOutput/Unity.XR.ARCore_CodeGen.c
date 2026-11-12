@@ -1637,17 +1637,17 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[57] =
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[11] = 
 {
-	{ 0x06000013, 104,  (void**)&ARCoreProvider_OnSaveAsyncComplete_m12E23530F91D85A853D7BBC952BB4E4C526E0958_RuntimeMethod_var, 0 },
-	{ 0x06000014, 103,  (void**)&ARCoreProvider_OnLoadAsyncComplete_m0E46207CE524C8108A319377EE4FD0B5319D170C_RuntimeMethod_var, 0 },
-	{ 0x06000088, 105,  (void**)&ARCoreProvider_OnBeforeGetCameraConfiguration_mA33A6474A489CA38E45F609013293D679AF4D06A_RuntimeMethod_var, 0 },
+	{ 0x06000013, 102,  (void**)&ARCoreProvider_OnSaveAsyncComplete_m12E23530F91D85A853D7BBC952BB4E4C526E0958_RuntimeMethod_var, 0 },
+	{ 0x06000014, 101,  (void**)&ARCoreProvider_OnLoadAsyncComplete_m0E46207CE524C8108A319377EE4FD0B5319D170C_RuntimeMethod_var, 0 },
+	{ 0x06000088, 103,  (void**)&ARCoreProvider_OnBeforeGetCameraConfiguration_mA33A6474A489CA38E45F609013293D679AF4D06A_RuntimeMethod_var, 0 },
 	{ 0x06000111, 1,  (void**)&ARCoreImageStabilizationUtils_UpdateBackgroundGeometry_m1F1D8922297C6264FD65A17F4B94353E43553D9E_RuntimeMethod_var, 0 },
-	{ 0x060001CA, 110,  (void**)&ARCoreProvider_SetConfigurationCallback_mF0CB81541E8AED4D6D8C13EEFC28F02C044632BA_RuntimeMethod_var, 0 },
-	{ 0x060001E3, 108,  (void**)&ARCoreProvider_OnApkInstallation_mCF471D5BC5E1FE4740696294320C033495CF3274_RuntimeMethod_var, 0 },
-	{ 0x060001E4, 109,  (void**)&ARCoreProvider_OnCheckApkAvailability_mBEC148833875195FFBB34791C412F2DBA1BC2009_RuntimeMethod_var, 0 },
-	{ 0x060001E5, 107,  (void**)&ARCoreProvider_CameraPermissionRequestProvider_m19E1C66D509D30992AD54875823B7257595D9B0C_RuntimeMethod_var, 0 },
-	{ 0x060002BA, 106,  (void**)&ARCoreProvider_GenerateGuid_m9FBE976767F8EECD905EDD862B05C16EC5F0034B_RuntimeMethod_var, 0 },
-	{ 0x060002CD, 111,  (void**)&ARCoreProvider_GenerateGuid_mEFBF2DA86959890B2BFF0479F6D989E0A03E64D3_RuntimeMethod_var, 0 },
-	{ 0x060002E0, 112,  (void**)&ARCoreProvider_GenerateGuid_m7C5047E30C06237E3F8A86CE2F29CF71DE056DA0_RuntimeMethod_var, 0 },
+	{ 0x060001CA, 108,  (void**)&ARCoreProvider_SetConfigurationCallback_mF0CB81541E8AED4D6D8C13EEFC28F02C044632BA_RuntimeMethod_var, 0 },
+	{ 0x060001E3, 106,  (void**)&ARCoreProvider_OnApkInstallation_mCF471D5BC5E1FE4740696294320C033495CF3274_RuntimeMethod_var, 0 },
+	{ 0x060001E4, 107,  (void**)&ARCoreProvider_OnCheckApkAvailability_mBEC148833875195FFBB34791C412F2DBA1BC2009_RuntimeMethod_var, 0 },
+	{ 0x060001E5, 105,  (void**)&ARCoreProvider_CameraPermissionRequestProvider_m19E1C66D509D30992AD54875823B7257595D9B0C_RuntimeMethod_var, 0 },
+	{ 0x060002BA, 104,  (void**)&ARCoreProvider_GenerateGuid_m9FBE976767F8EECD905EDD862B05C16EC5F0034B_RuntimeMethod_var, 0 },
+	{ 0x060002CD, 109,  (void**)&ARCoreProvider_GenerateGuid_mEFBF2DA86959890B2BFF0479F6D989E0A03E64D3_RuntimeMethod_var, 0 },
+	{ 0x060002E0, 110,  (void**)&ARCoreProvider_GenerateGuid_m7C5047E30C06237E3F8A86CE2F29CF71DE056DA0_RuntimeMethod_var, 0 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_ARCore_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_ARCore_CodeGenModule = 

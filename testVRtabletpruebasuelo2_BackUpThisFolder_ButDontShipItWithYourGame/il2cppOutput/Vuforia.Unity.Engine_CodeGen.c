@@ -7455,9 +7455,9 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[61] =
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[3] = 
 {
-	{ 0x06000962, 43,  (void**)&NativeUnityDriver_OnDriverCreated_mBAA5DBDDDBD539A1B32A22B1450B68DBC439A497_RuntimeMethod_var, 0 },
-	{ 0x06000963, 42,  (void**)&NativeUnityDriver_GetDriverConfig_m9BEDA58834FC2EE32F0EE59B0BE9B9131137D3C8_RuntimeMethod_var, 0 },
-	{ 0x06000E07, 11,  (void**)&Engine_onEngineErrorHandler_m86D58ED974266660860CEDEA3C25178901BFFBBA_RuntimeMethod_var, 0 },
+	{ 0x06000962, 41,  (void**)&NativeUnityDriver_OnDriverCreated_mBAA5DBDDDBD539A1B32A22B1450B68DBC439A497_RuntimeMethod_var, 0 },
+	{ 0x06000963, 40,  (void**)&NativeUnityDriver_GetDriverConfig_m9BEDA58834FC2EE32F0EE59B0BE9B9131137D3C8_RuntimeMethod_var, 0 },
+	{ 0x06000E07, 9,  (void**)&Engine_onEngineErrorHandler_m86D58ED974266660860CEDEA3C25178901BFFBBA_RuntimeMethod_var, 0 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Vuforia_Unity_Engine_CodeGenModule;
 const Il2CppCodeGenModule g_Vuforia_Unity_Engine_CodeGenModule = 

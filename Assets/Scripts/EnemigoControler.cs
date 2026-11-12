@@ -1,9 +1,10 @@
 using UnityEngine;
-using TMPro;
+
 
 public class EnemigoControler : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI textMeshProUGUI;
+    [SerializeField] JuegoSueloControler controladorJuego;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,15 +17,20 @@ public class EnemigoControler : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collider)
     {
         // Si el objeto toca el suelo
-        if (collision.gameObject.CompareTag("Suelo"))
+        if (collider.gameObject.CompareTag("Suelo"))
         {
             // Si era un enemigo (Malo) y toca el suelo, perdemos una vida
             if (gameObject.CompareTag("Enemigo"))
             {
-                textMeshProUGUI.text = "PIERDES VIDA";
+                JuegoSueloControler.instanciaJuego.choqueSueloEnemigo();
+                //textMeshProUGUI.text = "PIERDES VIDA";
+            }
+            else if (gameObject.CompareTag("Amigo"))
+            {
+                JuegoSueloControler.instanciaJuego.choqueSueloAmigo();
             }
             // Destruir el objeto al tocar el suelo en cualquier caso
             Destroy(gameObject);

@@ -2749,8 +2749,8 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[21] =
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[2] = 
 {
-	{ 0x060002AE, 90,  (void**)&VuCloudImageTargetObserver_HandleObservations_mFF4D5D104658E28566F34729D345C85F0E3BE84A_RuntimeMethod_var, 0 },
-	{ 0x060002AF, 91,  (void**)&VuCloudImageTargetObserver_HandleQueryError_m457E52E7A90C36D4BFA825AFBEDE5C48034B84FD_RuntimeMethod_var, 0 },
+	{ 0x060002AE, 88,  (void**)&VuCloudImageTargetObserver_HandleObservations_mFF4D5D104658E28566F34729D345C85F0E3BE84A_RuntimeMethod_var, 0 },
+	{ 0x060002AF, 89,  (void**)&VuCloudImageTargetObserver_HandleQueryError_m457E52E7A90C36D4BFA825AFBEDE5C48034B84FD_RuntimeMethod_var, 0 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Vuforia_Unity_Wrapper_CodeGenModule;
 const Il2CppCodeGenModule g_Vuforia_Unity_Wrapper_CodeGenModule = 
