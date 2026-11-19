@@ -14,7 +14,10 @@ public class EnemigoControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (transform.localPosition.y < -2f)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter(Collider collider)

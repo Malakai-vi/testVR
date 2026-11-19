@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2061604566950468760, guid: 021ee4d614a05ee4eb56b7b7296d2914, type: 3}
       propertyPath: m_Name
-      value: Amigo Variant
+      value: Amigo
       objectReference: {fileID: 0}
     - target: {fileID: 2061604566950468760, guid: 021ee4d614a05ee4eb56b7b7296d2914, type: 3}
       propertyPath: m_TagString
@@ -85,4 +85,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b01612667153d4cb86974436d8792a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemigoControler
-  textMeshProUGUI: {fileID: 0}
+  controladorJuego: {fileID: 0}
