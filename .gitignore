@@ -95,5 +95,8 @@ UIElementsSchema/
 *.tgz
 *.tar.gz
 
-# Dependencias locales de Unity Package Manager
-Packages/
+# IL2CPP backup folders
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# Unity UTMP / Android CMake build files
+.utmp/
