@@ -30,7 +30,7 @@ Dado que este repositorio contiene ejercicios complementarios, las escenas princ
 - `MenuPrincipal` (o escena inicial): Escena de presentación y navegación del juego educativo de geometría.
 - `Escena1`: Escena principal del juego donde se ejecuta la lógica de RA, temporizador, aleatoriedad y puntuación con Vuforia.
 - `DeteccionPlano`: Escena independiente correspondiente a ejercicios prácticos adicionales del curso (detección de superficies planas).
-- `PlanoEnemigo`: Escena independiente para lógicas adicionales de otros ejercicios prácticos.
+- `PlanoEnemigo`: Minijuego en Realidad Aumentada basado en detección de suelo (*Ground Plane*), donde caen objetos (`Enemigo` y `Amigo`) sobre el plano detectado y el jugador debe interceptarlos mediante disparos táctiles con proyectiles, partículas y sonido antes de que impacten en la superficie.
 
 ## 📱 Dispositivos de Prueba
 
@@ -66,3 +66,19 @@ Durante el desarrollo e integración del proyecto, se solventaron los siguientes
 ### 6. Cambios constantes en archivos de compilación Android/CMake (`.utmp/`)
 - **Problema:** Aparición continua de archivos modificados y renombrados dentro de `.utmp/` tras compilar para Android.
 - **Solución:** Inclusión de `.utmp/` en `.gitignore`, desvinculación de los archivos ya rastreados con `git rm -r --cached .utmp/` y publicación del cambio.
+
+### 7. Inicio prematuro del juego y caída al vacío en `Ground Plane Stage` (Vuforia)
+- **Problema:** Al iniciar la escena `PlanoEnemigo`, las bolas comenzaban a caer al vacío antes de que la cámara detectara y fijara el suelo real, o atravesaban el plano sin registrar colisión.
+- **Solución:** 
+  - Se desvinculó el inicio del juego de `OnTargetFound()` y se conectó al evento `OnContentPlaced` de `ContentPositioningBehaviour` en el `Plane Finder` (ajustando la altura de detección a `0.8 m`).
+  - Se normalizó la escala del `Ground Plane Stage` a `(1, 1, 1)` y se amplió el `BoxCollider` (`Size: 20x2x20`, `Center Y: -1`) para evitar el efecto *tunneling*, manteniendo el estado de tracking en `Tracked, Extended Tracked or Limited` para que Vuforia no desactivara el collider en micro-cortes de seguimiento.
+  - Se cambió la detección de impacto a `OnCollisionEnter` con detección continua (`Continuous Dynamic`) y se aumentó el `Linear Damping` de los prefabs para suavizar la caída.
+  - Se eliminaron los prefabs de la jerarquía para que no aparecieran en la escena hasta ser invocados.
+
+### 8. Bloqueo del sistema de compilación *Bee* (`tundra.log.json`)
+- **Problema:** Error `Internal build system error... Failed to open file "Library/Bee/tundra.log.json"` al compilar scripts tras realizar cambios en la escena.
+- **Solución:** Cierre de Unity y finalización de procesos residuales (`bee_backend.exe`), eliminación manual de la carpeta caché `Library/Bee` y reapertura del proyecto para regenerar los registros de compilación.
+
+### 9. Disparo doble y desviación de trayectoria en proyectiles táctiles (AR)
+- **Problema:** Al tocar la pantalla se instanciaban dos proyectiles simultáneamente y su trayectoria caía por debajo del objetivo debido a la gravedad y al desplazamiento inicial.
+- **Solución:** Se eliminó el componente duplicado `LanzadorProyectiles` de la jerarquía, se añadió un tiempo de recarga (*cooldown*) de `0.25 s`, se desactivó la gravedad en el proyectil (`useGravity = false`) y se calculó la dirección exacta mediante `Physics.Raycast` desde la cámara principal hacia el punto tocado, integrando además sistema de partículas auto-destructibles y `AudioSource.PlayClipAtPoint`.
