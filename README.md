@@ -32,6 +32,18 @@ Dado que este repositorio contiene ejercicios complementarios, las escenas princ
 - `DeteccionPlano`: Escena independiente correspondiente a ejercicios prácticos adicionales del curso (detección de superficies planas).
 - `PlanoEnemigo`: Minijuego en Realidad Aumentada basado en detección de suelo (*Ground Plane*), donde caen objetos (`Enemigo` y `Amigo`) sobre el plano detectado y el jugador debe interceptarlos mediante disparos táctiles con proyectiles, partículas y sonido antes de que impacten en la superficie.
 
+## 🎯 Fases Implementadas en `PlanoEnemigo` (Práctica de Detección de Planos)
+
+Siguiendo el desarrollo incremental de la práctica (implementado con **Vuforia Engine**), la escena `PlanoEnemigo` cubre las siguientes fases:
+
+1. **Fase 1 – Interfaz básica y destrucción de objetivos:** `Canvas` en modo *Screen Space - Overlay* con marcador de estado/puntuación (`TextMeshProUGUI`) y referencia visual de apuntado.
+2. **Fase 2 – Prefabs de enemigos y efectos de explosión:** Prefabs diferenciados (`Enemigo` y `Amigo`) con efecto de partículas auto-destructibles (`ExplosionParticulas`), sonido 3D (`AudioSource.PlayClipAtPoint`) y reacción animada previa a la destrucción.
+3. **Fase 3 – Generación dinámica en el escenario:** Instanciación periódica mediante corrutina (`GenerarObjetos()`) dentro de las coordenadas locales del plano detectado (`transform.TransformPoint`).
+4. **Fase 4 – Prefab de proyectil y trayectoria:** Disparo táctil de proyectiles (`LanzadorProyectiles.cs`) dirigidos mediante `Physics.Raycast` desde la cámara principal con control de cadencia (*cooldown*).
+5. **Fase 5 – Animación mediante físicas:** Caída controlada con `Rigidbody`, gravedad activa, detección continua (`Continuous Dynamic`) y resistencia del aire (`Linear Damping`).
+6. **Fase 6 – Objetos aliados con penalización:** Inclusión de objetos `Amigo` que suman puntos al alcanzar el suelo a salvo y penalizan si son destruidos por el jugador.
+7. **Fase 7 – Detección de planos como condición de juego:** Anclaje de superficie real mediante `Plane Finder` y `Ground Plane Stage` (Tag `Suelo`); los enemigos deben ser destruidos antes de impactar contra el plano.
+
 ## 📱 Dispositivos de Prueba
 
 Las pruebas de funcionamiento, rendimiento y estabilidad de la Realidad Aumentada se han llevado a cabo en los siguientes dispositivos físicos:
@@ -82,3 +94,9 @@ Durante el desarrollo e integración del proyecto, se solventaron los siguientes
 ### 9. Disparo doble y desviación de trayectoria en proyectiles táctiles (AR)
 - **Problema:** Al tocar la pantalla se instanciaban dos proyectiles simultáneamente y su trayectoria caía por debajo del objetivo debido a la gravedad y al desplazamiento inicial.
 - **Solución:** Se eliminó el componente duplicado `LanzadorProyectiles` de la jerarquía, se añadió un tiempo de recarga (*cooldown*) de `0.25 s`, se desactivó la gravedad en el proyectil (`useGravity = false`) y se calculó la dirección exacta mediante `Physics.Raycast` desde la cámara principal hacia el punto tocado, integrando además sistema de partículas auto-destructibles y `AudioSource.PlayClipAtPoint`.
+
+### 10. Falta de inicio de partida tras reorganizar el controlador y diagnóstico visual de detección (Vuforia)
+- **Problema:** Tras mover el controlador del juego y reconfigurar los eventos del `Plane Finder`, la partida no arrancaba (`IniciarJuego()` no llegaba a ejecutarse) y no había forma visual de saber si Vuforia estaba anclando realmente el plano o si el fallo estaba en la lógica de aparición.
+- **Solución:** 
+  - Se integró `JuegoSueloControler` directamente como componente del `Ground Plane Stage` y se vinculó el GameObject real de la escena al evento `OnTargetFound()` de `DefaultObserverEventHandler` (corrigiendo una referencia errónea al archivo de script), dejando el `Plane Finder` en modo `AUTOMATIC` con `AutomaticHitTest` conectado a `PositionContentAtPlaneAnchor` y el estado de tracking en `Tracked, Extended Tracked or Limited`.
+  - Para verificar en tiempo real el funcionamiento del sensor, se añadió un objeto visual (`Plane` / malla de referencia sin collider) como hijo de `Ground Plane Stage`. Esto permitió confirmar que el bloqueo provenía del momento de detección/anclaje de Vuforia y validar su correcto funcionamiento; se mantiene este elemento visual en la escena para facilitar futuros tests de calibración.
